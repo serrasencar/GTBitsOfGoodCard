@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Serra — Intro Card</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <main class="wrap">
+    <article class="card3d" id="card">
+      <!-- FRONT -->
+      <section class="face face--front">
+        <div class="avatar-wrap">
+          <img class="avatar" src="avatar.png" alt="Serra headshot">
+        </div>
+        <h1 class="name">Serra Sencar</h1>
+        <p class="line">Computer Science • Sophomore</p>
+
+        <p class="blurb">
+          Helloooo!! I’m Serra from Turkey. I’m super passionate about sustainability and resource management, 
+          and and I love being involved here on campus—whether it’s at the Community Garden, HexLabs, or the Wreck Ultimate Team!! Fun fact: I got the chance to be a panelist during the 2024 American Chamber of Commerce Sustainability Summit. Long term, I’d love to bring my CS background into climate modeling to design smarter, greener systems.
+        </p>
+
+        <div class="actions">
+          <button id="to-back" class="btn btn--big" type="button">
+            More about me →
+          </button>
+        </div>
+      </section>
+
+
+      <!-- BACK -->
+      <section class="face face--back" id="back" aria-label="Back of card">
+        <h2>Check out some of my work!</h2>
+
+        <p class="blurb">
+         Take a look at what I’ve been working on lately! I’ve been dabbling in <b>2D game development</b> (check out <i>sierropal</i> on itch.io or my GitHub), exploring <b>embedded systems</b>, and predictive modeling. I’m always excited to keep learning more.
+        </p>
+
+        <div class="actions">
+          <a class="btn btn--big btn-github" href="https://github.com/serrasencar" target="_blank" rel="noopener">
+            <!-- GitHub -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true">
+              <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+              0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53
+              .63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+              0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27
+              1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95
+              .29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2.15.21.55.15.55.15C13.71 14.53 16 11.54 16 8
+              c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            GitHub
+          </a>
+           <!-- Linkedin -->
+          <a class="btn btn--big btn-linkedin" href="https://www.linkedin.com/in/serra-sencar" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4.98 3.5a2.5 2.5 0 1 1-.01 5.01 2.5 2.5 0 0 1 .01-5.01M3 9h4v12H3V9zm7 0h3.7v1.64h.05c.51-.97 1.76-2 3.62-2
+              3.87 0 4.58 2.55 4.58 5.87V21h-4v-5.2c0-1.24-.02-2.84-1.73-2.84-1.74 0-2 1.36-2 2.76V21h-4V9z"/>
+            </svg>
+            LinkedIn
+          </a>
+
+          <button id="to-front" class="btn" type="button" aria-controls="back" aria-expanded="true">
+            ← Back
+          </button>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
